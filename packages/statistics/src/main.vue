@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'RoStatistics',
+  name: 'GyStatistics',
   props: {
     label: {
       required: true,

@@ -2,10 +2,10 @@
 import './fonts/iconfont.css'
 import Statistics from '../packages/statistics/index.js'
 import MessageBox from '../packages/message-box/index.js'
-import Icon from '../packages/icon/index.js'
-import Qrcode from '../packages/qrcode/index.js'
+import Imageview from '../packages/imageview/index.js'
+import Download from '../packages/download/index.js'
 
-const components = [Statistics, Icon, Qrcode]
+const components = [Statistics, Imageview, Download]
 
 // eslint-disable-next-line no-unused-vars
 const install = function (Vue, opts = {}) {
@@ -20,10 +20,10 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export default {
-  version: '1.0.2',
+  version: '1.0.1',
   install,
   Statistics,
   MessageBox,
-  Icon,
-  Qrcode
+  Imageview,
+  Download
 }

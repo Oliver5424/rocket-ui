@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'RoIcon',
+  name: 'GyIcon',
   props: {
     name: {
       type: String,

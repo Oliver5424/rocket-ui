@@ -7,7 +7,7 @@ import autoprefixer from 'autoprefixer'
 import { terser } from 'rollup-plugin-terser'
 import nodeResolve from 'rollup-plugin-node-resolve'
 import commonjs from 'rollup-plugin-commonjs'
-import babel from 'rollup-plugin-babel'
+// import babel from 'rollup-plugin-babel'
 import alias from '@rollup/plugin-alias'
 
 const isDev = process.env.NODE_ENV !== 'production'
@@ -30,11 +30,11 @@ const plugins = [
     extract: 'index.css',
     plugins: [autoprefixer()]
   }),
-  babel({
-    exclude: 'node_modules/**',
-    // 使plugin-transform-runtime生效
-    runtimeHelpers: true
-  }),
+  // babel({
+  //   exclude: 'node_modules/**',
+  //   // 使plugin-transform-runtime生效
+  //   runtimeHelpers: true
+  // }),
   alias({
     entries: [
       { find: '@packages', replacement: path.resolve(__dirname, 'packages') },
@@ -68,5 +68,6 @@ module.exports = {
       name: 'rockets-ui' //打包后的全局变量名称 如：window.RocketsUI
     }
   ],
+  external: ['vue'],
   plugins: plugins
 }

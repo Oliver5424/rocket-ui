@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'RoQrcode',
+  name: 'GyQrcode',
   props: {
     url: {
       type: String,

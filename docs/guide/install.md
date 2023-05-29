@@ -2,7 +2,7 @@
   <img src="https://ovyvo.github.io/rocket-ui/rocket.png">
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://www.npmjs.com/package/rockets-ui">
     <img src="https://img.shields.io/npm/v/rockets-ui.svg">
   </a>
@@ -21,35 +21,35 @@
   <a href="COMMITIZEN">
     <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg">
   </a>
-</p>
+</p> -->
 
-> 适用于 Vue2.x 的简易组件库
+> 工研院前端基于Vue2的桌面端组件库
 
 ## 安装
 
 ```shell
-npm install rockets-ui -S
+npm install gyy-ui -S
 // or
-yarn add rockets-ui -S
+yarn add gyy-ui -S
 // or
-cnpm install rockets-ui -S
+cnpm install gyy-ui -S
 ```
 
 ## 快速开始
 
 ```javascript
 import Vue from 'vue'
-import RocketsUI from 'rockets-ui'
-import 'rockets-ui/lib/index.css'
+import GyyUI from 'gyy-ui'
+import 'gyy-ui/lib/index.css'
 
-Vue.use(RocketsUI)
+Vue.use(GyyUI)
 
 // or
 import {
   Statistics
   // ...
-} from 'rockets-ui'
-import 'rockets-ui/lib/index.css'
+} from 'gyy-ui'
+import 'gyy-ui/lib/index.css'
 
 Vue.component(Statistics.name, Statistics)
 ```

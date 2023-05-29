@@ -35,7 +35,7 @@
 <script>
 import { rafThrottle } from '@src/utils.js'
 export default {
-  name: 'RoImageview',
+  name: 'GyImageview',
   props: {
     imageList: {
       type: Array,

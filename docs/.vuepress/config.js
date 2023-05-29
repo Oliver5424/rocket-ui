@@ -2,8 +2,8 @@ const path = require('path')
 const components = require('./components.js')
 
 module.exports = {
-  base: '/rocket-ui/',
-  title: 'Rockets-UI',
+  base: '/gyy-ui/',
+  title: 'gyy-ui',
   head: [['link', { rel: 'icon', href: '/rocket.png' }]],
   locales: {
     '/': {
@@ -11,15 +11,15 @@ module.exports = {
     }
   },
   themeConfig: {
-    title: 'Rockets-UI',
+    title: 'gyy-ui',
     description: '简易组件库',
     logo: '/rocket.png',
     smoothScroll: true,
     nav: [
       { text: '首页', link: '/' },
-      { text: '组件', link: '/guide/install' },
-      { text: '博客', link: 'https://ovyvo.github.io/yanblog.github.io/' },
-      { text: 'github', link: 'https://github.com/OVYVO/vue-utils' }
+      { text: '组件', link: '/guide/install' }
+      // { text: '博客', link: 'https://ovyvo.github.io/yanblog.github.io/' },
+      // { text: 'github', link: 'https://github.com/OVYVO/vue-utils' }
     ],
     sidebar: [
       ['/', '首页'],
@@ -31,7 +31,7 @@ module.exports = {
       },
       {
         title: '组件实例',
-        path: '/components/icon',
+        path: '/components/statistics',
         sidebarDepth: '1',
         children: components.links
       }

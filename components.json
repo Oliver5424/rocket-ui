@@ -7,16 +7,12 @@
     "path": "/packages/message-box/index.js",
     "name": "消息弹框"
   },
-  "icon": {
-    "path": "/packages/icon/index.js",
-    "name": "图标"
-  },
-  "qrcode": {
-    "path": "/packages/qrcode/index.js",
-    "name": "二维码"
-  },
   "imageview": {
     "path": "/packages/imageview/index.js",
     "name": "图片预览"
+  },
+  "download": {
+    "path": "/packages/download/index.js",
+    "name": "下载"
   }
 }

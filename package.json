@@ -1,11 +1,11 @@
 {
-  "name": "rockets-ui",
-  "version": "1.0.2",
-  "description": "适用于vue2.x的组件库",
+  "name": "gyy-ui",
+  "version": "1.0.1",
+  "description": "工研院前端vue2.x组件库",
   "license": "ISC",
   "main": "lib/components.es.js",
   "keywords": [
-    "rockets-ui"
+    "gyy-ui"
   ],
   "files": [
     "lib",
@@ -42,6 +42,8 @@
     "json-templater": "^1.2.0",
     "less-loader": "7",
     "lint-staged": "^13.0.3",
+    "postcss": "^8.4.23",
+    "postcss-loader": "^7.3.0",
     "prettier": "^2.7.1",
     "rollup": "^2.38.4",
     "rollup-plugin-babel": "^4.4.0",
@@ -57,7 +59,8 @@
     "vue-server-renderer": "2.6.12",
     "vue-template-compiler": "^2.6.12",
     "vuepress": "^1.9.7",
-    "vuepress-plugin-demo-container": "^0.2.0"
+    "vuepress-plugin-demo-container": "^0.2.0",
+    "inquirer": "^8.2.0"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
@@ -66,16 +69,10 @@
     "build:dev": "cross-env NODE_ENV=development rollup -c",
     "cz": "git add . && git-cz",
     "prepare": "husky install",
-    "lint:prettier": "npx prettier -w ."
+    "lint:prettier": "npx prettier -w .",
+    "gen": "node ./build/bin/index.js"
   },
-  "author": "vue12306@163.com",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/OVYVO/rocket-ui.git"
-  },
-  "bugs": {
-    "url": "https://github.com/OVYVO/rocket-ui/issues"
-  },
+  "author": "weiwei",
   "browserslist": [
     "defaults",
     "not ie < 8",

@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /indexBac.png
-heroText: Rockets-UI
-tagline: 适用于Vue2.x的简易组件库
+heroText: gyy-ui
+tagline: 工研院前端基于Vue2的桌面端组件库
 actionText: 快速上手 →
 actionLink: /guide/install
 features:
@@ -12,7 +12,7 @@ features:
     details: 基于vuepress构建文档，组件使用方式所见即所得。
   - title: 开发
     details: 专注组件逻辑开发，自动添加组件所有依赖文件，文档自动生成。
-footer: MIT Licensed | Copyright © 2022-present YanGang
+footer: MIT Licensed | Copyright © 2023-present
 ---
 
 #

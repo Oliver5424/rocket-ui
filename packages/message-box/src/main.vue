@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: 'RoMessageBox',
+  name: 'GyMessageBox',
   props: {
     closeOnHashChange: {
       type: Boolean,

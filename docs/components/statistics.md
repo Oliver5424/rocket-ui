@@ -8,7 +8,7 @@
 
 ```vue
 <template>
-  <ro-statistics label="普通进度条" :total="100" :success="45"></ro-statistics>
+  <gy-statistics label="普通进度条" :total="100" :success="45"></gy-statistics>
 </template>
 ```
 
@@ -20,14 +20,14 @@
 
 ```vue
 <template>
-  <ro-statistics
+  <gy-statistics
     label="附加信息进度条"
     :total="100"
     :success="30"
     :additionInfo="additionInfo"
     style="margin-bottom: 20px"
-  ></ro-statistics>
-  <ro-statistics label="数据查看进度条" :total="100" :success="45" :showInfo="true"></ro-statistics>
+  ></gy-statistics>
+  <gy-statistics label="数据查看进度条" :total="100" :success="45" :showInfo="true"></gy-statistics>
 </template>
 
 <script>
@@ -49,23 +49,23 @@ export default {
 
 ```vue
 <template>
-  <ro-statistics
+  <gy-statistics
     label="自定义样式"
     :total="100"
     :success="30"
     color="#409EFF"
     strokeColor="#F2F6FC"
     style="margin-bottom: 10px"
-  ></ro-statistics>
-  <ro-statistics
+  ></gy-statistics>
+  <gy-statistics
     label="自定义样式"
     :total="100"
     :success="45"
     color="#F56C6C"
     strokeColor="#F2F6FC"
     style="margin-bottom: 10px"
-  ></ro-statistics>
-  <ro-statistics label="自定义样式" :total="100" :success="60" color="#5C887A" strokeColor="#F2F6FC"></ro-statistics>
+  ></gy-statistics>
+  <gy-statistics label="自定义样式" :total="100" :success="60" color="#5C887A" strokeColor="#F2F6FC"></gy-statistics>
 </template>
 ```
 

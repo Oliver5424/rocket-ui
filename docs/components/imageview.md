@@ -10,7 +10,7 @@
 <template>
   <div class="imageview-wrap">
     <div @click="showImageview = true" style="cursor: pointer; color: rgb(64, 158, 255);">点击查看照片</div>
-    <ro-imageview
+    <gy-imageview
       v-if="showImageview"
       :imageList="imageList"
       :onClose="
@@ -18,7 +18,7 @@
           showImageview = false
         }
       "
-    ></ro-imageview>
+    ></gy-imageview>
   </div>
 </template>
 
