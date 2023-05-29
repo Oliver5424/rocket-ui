@@ -1,6 +1,6 @@
 {
   "name": "gyy-ui",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "工研院前端vue2.x组件库",
   "license": "ISC",
   "main": "lib/components.es.js",
