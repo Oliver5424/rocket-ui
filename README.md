@@ -39,6 +39,7 @@ Vue.component(Statistics.name, Statistics)
 ```javascript
 npm run gen
 ```
+输入这个命令按提示回答相应的问题即可
 ## 提交代码
 该项目引入了 `husky`，在提交代码时需要注意要安装规定的格式提交 `commit` 信息。
 
