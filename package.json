@@ -28,7 +28,7 @@
     "@babel/preset-env": "^7.12.13",
     "core-js": "^3.8.3",
     "qrcode": "^1.5.1",
-    "vue": "^2.6.12"
+    "vue": "2.6.12"
   },
   "devDependencies": {
     "@babel/core": "^7.12.13",
@@ -68,7 +68,7 @@
     "vue-eslint-parser": "^9.1.0",
     "vue-loader": "^15.9.6",
     "vue-server-renderer": "2.6.12",
-    "vue-template-compiler": "^2.6.12",
+    "vue-template-compiler": "2.6.12",
     "vuepress": "^1.9.7",
     "vuepress-plugin-demo-container": "^0.2.0",
     "inquirer": "^8.2.0"
